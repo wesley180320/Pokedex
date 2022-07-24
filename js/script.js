@@ -40,9 +40,10 @@ const renderPokemon = async (pokemon) =>{
         console.log(data)}
         else{
 
+            // pokemonImagem.style.display = 'none';
             pokemonName.innerHTML = "Não encontrado";
             pokemonNumero.innerHTML = "";
-            pokemonImagem.style.display = 'none';
+           
 
         }
 
@@ -69,7 +70,7 @@ form.addEventListener('submit', (event) => {
 
 
     left.addEventListener('click', () => {
-      alert('Prev clicled')
+    //   alert('Prev clicled')
 
       searchPokemon --;
 
